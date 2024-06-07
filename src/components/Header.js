@@ -65,7 +65,7 @@ export default function Header() {
                   <li className={stroma.className}>
                     <Link
                       className="text-xl text-white hover:text-yellow-500"
-                      href="#teamwork"
+                      href="/#teamwork"
                     >
                       Teamwork
                     </Link>
@@ -96,7 +96,7 @@ export default function Header() {
                   <li className={stroma.className}>
                     <Link
                       className="text-white text-xl hover:text-yellow-500"
-                      href="#projects"
+                      href="/#projects"
                     >
                       Projects
                     </Link>
@@ -176,7 +176,7 @@ export default function Header() {
                 <li className={stroma.className}>
                   <Link
                     className="text-xl  text-black hover:text-yellow-500"
-                    href="#teamwork"
+                    href="/#teamwork"
                   >
                     Teamwork
                   </Link>
@@ -193,7 +193,7 @@ export default function Header() {
                 <li className={stroma.className}>
                   <Link
                     className=" text-black text-xl hover:text-yellow-500"
-                    href="#projects"
+                    href="/#projects"
                   >
                     Projects
                   </Link>
