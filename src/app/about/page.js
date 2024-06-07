@@ -10,7 +10,7 @@ import FSection from "@/app/crescoComponent/FSection";
 export default function About() {
   return (
     <div>
-      <FSection />
+      {/* <FSection /> */}
       {/* Start Main Content */}
       <div className="main-content ">
         <div className="py-5">

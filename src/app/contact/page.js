@@ -6,7 +6,7 @@ import FSection from "@/app/crescoComponent/FSection";
 export default function Contact() {
   return (
     <div>
-     <FSection />
+     {/* <FSection /> */}
       {/* Start Main Content */}
       <div className="">
         {/* Start Map Content */}
