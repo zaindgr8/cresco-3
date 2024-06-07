@@ -14,7 +14,7 @@ const FSection = () => {
         style={{ height: "100vh", width: "100vw" }}
       >
         {/* Start Oblique */}
-        <div className="video-container">
+        <div >
           {/* <video
             autoPlay
             muted
@@ -47,37 +47,7 @@ const FSection = () => {
         </div>
       </div>
 
-      <style jsx>{`
-        .video-container {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 100%;
-          width: 100%;
-          overflow: hidden;
-        }
-        .video,
-        .gif {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
-        .video {
-          display: none;
-        }
-        .gif {
-          display: block;
-        }
-
-        @media (min-width: 768px) {
-          .video {
-            display: block;
-          }
-          .gif {
-            display: none;
-          }
-        }
-      `}</style>
+      
     </>
   );
 };
