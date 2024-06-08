@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import Properties from "@/components/properties";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function AgentDetails() {
@@ -18,7 +19,7 @@ export default function AgentDetails() {
                 <div className="g-0 row">
                   <div className="bg-white col-lg-5 col-md-6 col-xl-3 position-relative">
                     {/* Start Agent Avatar Image */}
-                    <img
+                    <Image
                       src=" assets/img/avatar/01.jpg"
                       alt=""
                       className="h-100 w-100 object-fit-cover"

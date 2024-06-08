@@ -1,6 +1,7 @@
 'use client'
 import React from "react";
 import localFont from "next/font/local";
+import Image from "next/image";
 
 // Load fonts with font-display: swap
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf", display: 'swap' });
@@ -14,7 +15,7 @@ const FSection = () => {
         style={{ height: "100vh", width: "100vw" }}
       >
         {/* Start Oblique */}
-        <div >
+        <div>
           {/* <video
             autoPlay
             muted
@@ -23,10 +24,11 @@ const FSection = () => {
             className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0 video"
             preload="metadata" // Preload only metadata to start
           /> */}
-          <img
+          <Image
             src="/assets/img/bg-cresco.jpg"
+            layout="fill"
             alt="Hero GIF"
-            className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0 video"
+            className="h-100 w-100 object-fit-cover position-absolute  oblique-image top-0 video"
           />
         </div>
         {/* /.End Oblique */}
@@ -46,8 +48,6 @@ const FSection = () => {
           </div>
         </div>
       </div>
-
-      
     </>
   );
 };

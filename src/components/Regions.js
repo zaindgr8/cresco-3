@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const regions = [
@@ -38,19 +39,21 @@ export default function Regions() {
   return (
     <div className="flex gap-5  flex-wrap justify-center">
       <div className="">
-        <img
-          src="assets/img/azizi1.png"
-          className=" mt-2"
+        <Image
+          width={150}
+          height={130}
+          src="/assets/img/azizi1.png"
+          className="mt-2"
           alt="EMAAR"
-          style={{ width: '150px', height: '130px' }}
         />
       </div>
       <div className="">
-        <img
-          src="assets/img/ellington1.jpeg"
+        <Image
+          width={150}
+          height={150}
+          src="/assets/img/ellington1.jpeg"
           className=""
           alt="ELLINGTON"
-          style={{ width: '150px', height: '150px' }}
         />
       </div>
       <div className="">
@@ -58,7 +61,7 @@ export default function Regions() {
           src="assets/img/danube1.png"
           className=" mt-12"
           alt="DANUBE"
-          style={{ width: '150px', height: '90px' }}
+          style={{ width: "150px", height: "90px" }}
         />
       </div>
       <div className="">
@@ -66,16 +69,16 @@ export default function Regions() {
           src="assets/img/EMAAR_WORD_MARK_EN.png"
           className=""
           alt="SOBHA"
-          style={{ width: '150px', height: '150px' }}
+          style={{ width: "150px", height: "150px" }}
         />
       </div>
-      
+
       <div className="">
         <img
           src="assets/img/damaac1.png"
           className=" mt-14"
           alt="DAMAC"
-          style={{ width: '150px', height: '40px' }}
+          style={{ width: "150px", height: "40px" }}
         />
       </div>
     </div>

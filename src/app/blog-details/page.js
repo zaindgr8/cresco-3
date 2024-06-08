@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import Carousel from "@/components/corousel";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogDetails() {
   return (
@@ -9,7 +10,7 @@ export default function BlogDetails() {
       <div
         className="blog-header position-relative text-white"
       >
-          <img src="assets/img/blog/banner.jpg" alt="" className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"/>
+          <Image src="assets/img/blog/banner.jpg" alt="" className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"/>
         <div className="container position-relative z-1">
           <div className="row justify-content-center">
             <div className="col-lg-10 col-xl-8 text-center">
@@ -91,7 +92,7 @@ export default function BlogDetails() {
                     There's only one man I've ever called a coward
                   </h2>
                   <figure className="caption aligncenter">
-                    <img
+                    <Image
                       src="assets/img/blog/details-01.jpg"
                       className="img-fluid rounded-3"
                       alt=""
@@ -151,7 +152,7 @@ export default function BlogDetails() {
                     45 BC, making it over 2000 years old.
                   </p>
                   <p>
-                    <img
+                    <Image
                       src="assets/img/blog/details-02.jpg"
                       alt="Image"
                       className="alignright img-fluid rounded-3"

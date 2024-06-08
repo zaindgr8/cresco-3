@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ErrorPageTwo() {
@@ -38,7 +39,7 @@ export default function ErrorPageTwo() {
             <div className="row justify-content-center">
               <div className="col-sm-10 col-md-9 col-lg-7 text-center">
                 {/* Start Image */}
-                <img
+                <Image
                   src="assets/img/png-img/feeling-blue.png"
                   alt=""
                   className="img-fluid"

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { FaPhone } from "react-icons/fa6";
 import { PiBriefcaseFill } from "react-icons/pi";
 import localFont from "next/font/local";
+import Image from "next/image";
 
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });

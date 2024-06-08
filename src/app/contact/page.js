@@ -3,6 +3,7 @@ import GoogleMapsComponent from "@/components/map";
 import Link from "next/link";
 
 import FSection from "@/app/crescoComponent/FSection";
+import Image from "next/image";
 export default function Contact() {
   return (
     <div>
@@ -148,7 +149,7 @@ export default function Contact() {
                 <div className="row align-items-center">
                   <div className="col-md-7 pe-xl-5 mb-5 mb-md-0">
                     {/* Start Illustration Image */}
-                    <img
+                    <Image
                       src="/cresco.png"
                       alt=""
                       className="img-fluid"

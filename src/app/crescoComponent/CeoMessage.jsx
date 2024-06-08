@@ -1,5 +1,6 @@
 import React from "react";
 import localFont from "next/font/local";
+import Image from "next/image";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Regular.ttf" });
 

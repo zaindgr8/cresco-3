@@ -1,5 +1,6 @@
 import React from "react";
 import localFont from "next/font/local";
+import Image from "next/image";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
@@ -10,7 +11,7 @@ const CeoMessage = () => {
         <div className="row  align-items-center">
           <div className="position-relative">
             <div className="" />
-            <img
+            <Image
               width={150}
               src="assets/img/about/CEO.png"
               className="img-fluid position-relative"

@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import localFont from "next/font/local";
+import Image from "next/image";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Regular.ttf" });
 
@@ -61,8 +62,9 @@ const FfthSection = () => {
               {/* /. End Card Link */}
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/jvc.jpeg"
+                <Image
+                  layout="fill"
+                  src="/assets/img/properties/jvc.jpeg"
                   alt=""
                   className="img-fluid"
                 />
@@ -121,8 +123,9 @@ const FfthSection = () => {
               {/* /. End Card Link */}
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/creekharbour.jpeg"
+                <Image
+                  layout="fill"
+                  src="/assets/img/properties/creekharbour.jpeg"
                   alt=""
                   className="img-fluid"
                 />
@@ -179,8 +182,9 @@ const FfthSection = () => {
               {/* /. End Card Link */}
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/o3.jpg"
+                <Image
+                  layout="fill"
+                  src="/assets/img/properties/o3.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -239,8 +243,9 @@ const FfthSection = () => {
               {/* /. End Card Link */}
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/04.jpg"
+                <Image
+                  layout="fill"
+                  src="/ssets/img/properties/04.jpg"
                   alt=""
                   className="img-fluid"
                 />
@@ -306,8 +311,9 @@ const FfthSection = () => {
               {/* /. End Card Link */}
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/marina.jpeg"
+                <Image
+                  layout="fill"
+                  src="/assets/img/properties/marina.jpeg"
                   alt=""
                   className="img-fluid"
                 />
@@ -366,8 +372,9 @@ const FfthSection = () => {
               {/* /. End Card Link */}
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/sportscity.jpeg"
+                <Image
+                  layout="fill"
+                  src="/assets/img/properties/sportscity.jpeg"
                   alt=""
                   className="img-fluid"
                 />

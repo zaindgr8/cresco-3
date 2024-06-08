@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Testimonial1 from "../crescoComponent/Testimonial";
 import TSection from "../crescoComponent/TSection";
 import FSection from "@/app/crescoComponent/FSection";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -112,7 +113,7 @@ export default function About() {
                   <div className="col-6">
                     <div className="position-relative">
                       <div className="line-shape" />
-                      <img
+                      <Image
                         src="assets/img/about/d1.jpg"
                         className="img-fluid rounded-3 position-relative"
                         alt=""
@@ -124,7 +125,7 @@ export default function About() {
                     <div className="row g-3 g-sm-4">
                       {/* Image */}
                       <div className="col-12">
-                        <img
+                        <Image
                           src="assets/img/about/d2.jpg"
                           className="img-fluid rounded-3"
                           alt=""
@@ -132,7 +133,7 @@ export default function About() {
                       </div>
                       {/* Image */}
                       <div className="col-12">
-                        <img
+                        <Image
                           src="assets/img/about/d3.jpg"
                           className="img-fluid rounded-3"
                           alt=""
