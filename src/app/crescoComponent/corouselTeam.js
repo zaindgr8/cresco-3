@@ -66,7 +66,7 @@ const Carousel = () => {
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
-            Sales Director
+            Director
           </div>
           <div className="text-sm flex gap-x-2 items-center">
             <FaPhone />

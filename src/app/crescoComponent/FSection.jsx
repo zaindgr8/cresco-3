@@ -2,6 +2,7 @@
 import React from "react";
 import localFont from "next/font/local";
 import Image from "next/image";
+import DropdownTwo from "@/components/form-control";
 
 // Load fonts with font-display: swap
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf", display: 'swap' });
@@ -38,12 +39,15 @@ const FSection = () => {
         >
           <div>
             <div>
+              <div className="bg-[#E1B958] d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+                Cresco Real Estate LLC
+              </div>
               <h1 className=" text-white  font-bold  text-5xl ">
                 <span className={stroma.className}>
                   Unlock The Door <br /> To Your Dream Home
                 </span>
               </h1>
-              {/* Start Main Search Content */}
+              <h2 className="text-white text-2xl"></h2>
             </div>
           </div>
         </div>
