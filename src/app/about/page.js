@@ -8,11 +8,6 @@ import Testimonial1 from "../crescoComponent/Testimonial";
 import TSection from "../crescoComponent/TSection";
 import FSection from "@/app/crescoComponent/FSection";
 
-export const config={
-  unstable_runtimeJS: false
-}
-
-
 export default function About() {
   return (
     <div>
